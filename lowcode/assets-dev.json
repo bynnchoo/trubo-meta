@@ -1,0 +1,88 @@
+{
+  "packages": [
+    {
+      "package": "iconfont-icons",
+      "urls": "//at.alicdn.com/t/font_2369445_ukrtsovd92r.js"
+    },
+    {
+      "package": "@ant-design/icons",
+      "version": "4.7.0",
+      "urls": [
+        "//g.alicdn.com/code/npm/@ali/ant-design-icons-cdn/4.5.0/index.umd.min.js"
+      ],
+      "library": "icons"
+    },
+    {
+      "package": "antd",
+      "version": "4.23.0",
+      "urls": [
+        "//g.alicdn.com/code/lib/antd/4.23.0/antd.min.js",
+        "//g.alicdn.com/code/lib/antd/4.23.0/antd.min.css"
+      ],
+      "library": "antd"
+    },
+    {
+      "package": "temp-materials",
+      "version": "0.1.34",
+      "library": "temp-materials",
+      "urls": [
+        "./render/default/view.js",
+        "./render/default/view.css"
+      ],
+      "editUrls": [
+        "./view.js",
+        "./view.css"
+      ],
+      "advancedUrls": {
+        "default": [
+          "./render/default/view.js",
+          "./render/default/view.css"
+        ]
+      },
+      "advancedEditUrls": {}
+    }
+  ],
+  "components": [
+    {
+      "exportName": "TempMaterialsMeta",
+      "npm": {
+        "package": "temp-materials",
+        "version": "0.1.34"
+      },
+      "url": "./meta.js",
+      "urls": {
+        "default": "./meta.js"
+      },
+      "advancedUrls": {
+        "default": [
+          "./meta.js"
+        ]
+      }
+    }
+  ],
+  "sort": {
+    "groupList": [
+      "精选组件",
+      "原子组件"
+    ],
+    "categoryList": [
+      "基础元素",
+      "布局容器类",
+      "表格类",
+      "表单详情类",
+      "帮助类",
+      "对话框类",
+      "业务类",
+      "通用",
+      "引导",
+      "信息输入",
+      "信息展示",
+      "信息反馈"
+    ]
+  },
+  "groupList": [
+    "精选组件",
+    "原子组件"
+  ],
+  "ignoreComponents": {}
+}
